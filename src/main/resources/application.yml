@@ -1,0 +1,17 @@
+#spring.application.name=toDo_service
+
+
+spring:
+    application:
+        name: toDo_service
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/todo_db
+        username: root
+        password   : 1002
+        driver-class-name: com.mysql.cj.jdbc.Driver
